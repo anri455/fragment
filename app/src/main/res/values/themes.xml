@@ -14,6 +14,15 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="appTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+
+
     <style name="appTheme.appbaroverlay" parent="ThemeOverlay.AppCompat.ActionBar"/>
     <style name="AppsTheme.PopupOperlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="appTheme"></style>
 </resources>
